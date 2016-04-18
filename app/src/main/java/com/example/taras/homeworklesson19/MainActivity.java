@@ -39,6 +39,7 @@ public final class MainActivity extends AppCompatActivity implements View.OnClic
 
         swtchNotificationType = (SwitchCompat) findViewById(R.id.swtch_notification_type_AM);
         textView = (TextView) findViewById(R.id.tv_AM);
+        textView.setText(getString(R.string.default_notification_view));
     }
 
     @Override
