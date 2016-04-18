@@ -10,9 +10,26 @@
     <TextView
         android:id="@+id/tv_title_CN"
         tools:text="Hello world!"
-        android:layout_centerInParent="true"
         android:textSize="20sp"
+        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_image_CN"
+        tools:background="@android:drawable/btn_star_big_on"
+        android:layout_alignParentRight="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_message_CN"
+        android:maxLines="3"
+        android:layout_margin="3dp"
+        tools:text="message"
+        android:layout_below="@id/tv_title_CN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/iv_image_CN" />
 
 </RelativeLayout>
